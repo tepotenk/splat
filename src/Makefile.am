@@ -1,7 +1,7 @@
 SUBDIRS = 
 INCLUDES = -I$(top_srcdir)
 
-splat_PROGRAMS = splat
+bin_PROGRAMS = splat
 
 splat_CFLAGS = $(SPLAT_CFLAGS)
 splat_LDADD = $(SPLAT_LIBS)
